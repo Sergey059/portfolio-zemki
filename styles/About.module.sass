@@ -1,0 +1,61 @@
+.about
+  padding: 90px 0
+  background: #F9F9F9
+  @media only screen and (min-width: 1024px)
+    padding: 120px 0
+.container
+  display: flex
+  flex-direction: column
+  align-items: center
+  @media only screen and (min-width: 1024px)
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+.imgBox
+  max-width: 420px
+  margin-bottom: 1rem
+  @media only screen and (min-width: 1024px)
+    flex: 0 0 420px
+  @media only screen and (min-width: 1260px)
+    flex-basis: 540px
+    max-width: 540px
+.textBox
+  text-align: center
+  max-width: 580px
+  @media only screen and (min-width: 1024px)
+    max-width: 560px
+    text-align: left
+    flex: 0 0 51%
+.title
+  margin-bottom: 1rem
+  font-size: 36px
+  @media only screen and (min-width: 768px)
+    font-size: 42px
+  @media only screen and (min-width: 1024px)
+    margin-bottom: 30px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  @media only screen and (min-width: 1260px)
+    margin-bottom: 60px
+  span
+    @media only screen and (min-width: 1024px)
+      margin-right: 120px
+      flex: 0 0 auto
+  &::after
+    @media only screen and (min-width: 1024px)
+      margin-top: 6px
+      height: 2px
+      flex-basis: 100%
+      content: ""
+      display: block
+      background: #000
+      border-radius: 2px
+.text
+  margin-bottom: 1rem
+  &:last-of-type
+    margin-bottom: 0
+  @media only screen and (min-width: 768px)
+    font-size: 18px
+  @media only screen and (min-width: 1024px)
+    font-size: 20px

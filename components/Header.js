@@ -27,7 +27,7 @@ const Header = () => {
         <div className={styles.links}>
           {navigation.map(({ id, title, path }) => (
             <Link key={id} href={path}>
-              <a className={pathname === path ? styles.active : null}>
+              <a className={pathname === path ? styles.active : null} onClick={() => setShow(false)}>
                 {title}
               </a>
             </Link>

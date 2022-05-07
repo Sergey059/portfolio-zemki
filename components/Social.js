@@ -1,6 +1,6 @@
 import { FaInstagram, FaVk, FaTelegramPlane } from "react-icons/fa";
 
-import styles from "../styles/Home.module.sass";
+import styles from "../styles/Hero.module.sass";
 
 const Social = () => {
   return (
