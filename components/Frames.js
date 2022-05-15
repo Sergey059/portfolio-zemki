@@ -15,9 +15,7 @@ const frames = [
 const Frames = () => {
   return (
     <section className={styles.frames}>
-      <div className={`container ` + styles.container}>
-        <h2 className={styles.title}><span>Лучшие кадры</span></h2>
-      </div>
+      <h2 className={styles.title}><span>Лучшие кадры</span></h2>
       <div className={styles.content}>
         {frames.map(({ id, src, alt }) => (
 

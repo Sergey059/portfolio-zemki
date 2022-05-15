@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Cards.module.sass";
+
 const cards = [
   { id: 1, icon: "/photo.svg", title: "Фотосъемка", text: "Тысячи качественных и ярких фотографий" },
   { id: 2, icon: "/video.svg", title: "Видеосъемка", text: "Профессиональная съемка клипов и видеороликов" },
@@ -18,6 +19,7 @@ const Cards = () => {
           <div key={id} className={styles.card}>
             <Image
               src={icon}
+              alt={title}
               width={60}
               height={60}
             />

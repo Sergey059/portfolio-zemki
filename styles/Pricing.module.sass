@@ -1,0 +1,95 @@
+.prices
+  padding: 90px 0
+  @media only screen and (min-width: 1024px)
+    padding: 120px 0
+  button
+    line-height: 46px
+    color: #848484
+    border-color: #848484
+    &:hover
+      color: #000
+      border-color: #000
+.title
+  margin-bottom: 30px
+  font-size: 36px
+  text-align: center
+  @media only screen and (min-width: 768px)
+    font-size: 42px
+  @media only screen and (min-width: 1024px)
+    margin-bottom: 60px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  span
+    @media only screen and (min-width: 1024px)
+      margin-left: 120px
+      margin-right: 120px
+      flex: 0 0 auto
+  &::before,
+  &::after
+    @media only screen and (min-width: 1024px)
+      margin-top: 6px
+      height: 2px
+      flex-basis: 100%
+      content: ""
+      display: block
+      background: #000
+      border-radius: 2px
+  &::after
+    @media only screen and (min-width: 1260px)
+      flex: 0 0 10.7vw
+.cards
+  display: flex
+  flex-direction: column
+  align-items: center
+  @media only screen and (min-width: 1024px)
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+.card
+  margin-bottom: 30px
+  padding: 30px 24px
+  width: 100%
+  max-width: 360px
+  background: #F9F9F9
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1)
+  border-radius: 3px
+  &:last-of-type
+    margin-bottom: 0
+  @media only screen and (min-width: 1024px)
+    padding: 30px 20px
+    margin-bottom: 0
+    flex: 0 0 32%
+  @media only screen and (min-width: 1260px)
+    padding: 30px 24px
+.subtitle
+  margin-bottom: 30px
+  font-size: 20px
+  text-transform: uppercase
+  text-align: center
+  &::before,
+  &::after
+    font-size: 24px
+    display: inline-block
+  &::before
+    margin-right: 12px
+    content: "«"
+  &::after
+    margin-left: 12px
+    content: "»"
+.list
+  margin-bottom: 30px
+  padding-left: 20px
+.item
+  margin-bottom: 12px
+  list-style: disc
+  @media only screen and (min-width: 1024px)
+    font-size: 18px
+.bottom
+  display: flex
+  justify-content: space-between
+  align-items: center
+.price
+  font-size: 28px
+  font-weight: 500
+  color: #CD2E1B

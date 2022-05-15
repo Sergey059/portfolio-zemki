@@ -5,10 +5,13 @@
   @media only screen and (min-width: 768px)
     font-size: 42px
   @media only screen and (min-width: 1024px)
+    margin-left: calc( (100vw - 964px) / 2 )
     margin-bottom: 60px
     display: flex
     justify-content: space-between
     align-items: center
+  @media only screen and (min-width: 1260px)
+    margin-left: calc( (100vw - 1200px) / 2 )
   span
     @media only screen and (min-width: 1024px)
       margin-right: 120px
@@ -34,8 +37,12 @@
 .frame
   display: block
   position: relative
+  img
+    transition: 0.3s ease-out
   &:hover
-    filter: brightness(1.1)
+    img
+      transform: scale(1.1)
+      filter: brightness(1.15)
   &1
     grid-column: 1 / 10
     grid-row: 1 / 7

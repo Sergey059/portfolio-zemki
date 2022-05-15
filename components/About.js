@@ -9,6 +9,7 @@ const About = () => {
         <div className={styles.imgBox}>
           <Image
             src="/photo.jpg"
+            alt="фото Юлия Земски"
             width={600}
             height={682}
           />
