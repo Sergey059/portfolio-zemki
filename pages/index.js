@@ -6,6 +6,7 @@ import About from "../components/About";
 import Frames from "../components/Frames";
 import Pricing from "../components/Pricing";
 import Latest from "../components/Latest";
+import Video from "../components/Video";
 
 
 const Home = () => (
@@ -13,8 +14,10 @@ const Home = () => (
     <Head>
       <title>Портфолио фотографа</title>
     </Head>
+
     <Hero />
     <About />
+    <Video />
     <Cards />
     <Frames />
     <Pricing />

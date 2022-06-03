@@ -35,7 +35,7 @@ const Footer = () => {
         </a>
         <button className={styles.up}><AiOutlineArrowUp /></button>
         <p className={styles.copy}>© 2022 Все права защищены</p>
-        <p className={styles.dev}>developed by <a className={styles.link} href="https://sv-59.ru/">S.Vedernikov</a></p>
+        <p className={styles.dev}>design & development <a className={styles.link} href="https://sv-59.ru/">S.Vedernikov</a></p>
       </div>
     </div>
   </footer>;
