@@ -5,7 +5,7 @@ import Button from "./Button"
 
 const Latest = () => {
   return (
-    <div className={styles.latest}>
+    <div className={styles.latest} id="message">
       <h2 className={styles.title}><span>Оставить сообщение</span></h2>
       <div className={`container ` + styles.container}>
         <form className={styles.form} action="#" method="post" >

@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Social from "./Social";
 import styles from "../styles/Hero.module.sass"
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -12,7 +13,9 @@ const Hero = () => {
             Когда фотографируешь людей в цвете, то фотографируешь их одежду,
             когда в черном-белом, то фотографируешь их душу
           </p>
-          <Button text="Оставить сообщение" />
+          <Link href="#message">
+            <a className={`btn ` + styles.btn}>Оставить сообщение</a>
+          </Link>
           <Social />
         </div>
       </div>

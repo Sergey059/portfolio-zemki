@@ -1,8 +1,15 @@
-const Projects = () => (
+import Head from "next/head";
+
+import Projects from "../../components/Projects";
+
+
+const ProjectsPage = () => (
   <>
-    <h1>Projects</h1>
-    <p>Страницы и Роутинг (Pages & Routes)</p>
+    <Head>
+      <title>Страница работ</title>
+    </Head>
+    <Projects />
   </>
 );
 
-export default Projects;
+export default ProjectsPage;
